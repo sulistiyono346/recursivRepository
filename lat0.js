@@ -7,11 +7,11 @@ function makan(waktu) {
   }
   if (waktu>=15) {
     var time=waktu-15
-    var count=" "
-    count+="A"
+    var count=0
+    count++
   }
 
-return count+makan(waktu)
+return count+makan(time)
 }
 console.log(makan(66));
 console.log(makan(100));
